@@ -1,10 +1,82 @@
 [
 {
+    "model": "webapp.product",
+    "pk": 1,
+    "fields": {
+        "name": "Book",
+        "description": "The best story",
+        "category": "books",
+        "leftover": 5,
+        "price": "13.25",
+        "created_at": "2022-11-14T07:11:50.863Z"
+    }
+},
+{
+    "model": "webapp.product",
+    "pk": 2,
+    "fields": {
+        "name": "Rose",
+        "description": "Roses are red",
+        "category": "flowers",
+        "leftover": 7,
+        "price": "5.25",
+        "created_at": "2022-11-14T07:12:11.999Z"
+    }
+},
+{
+    "model": "webapp.product",
+    "pk": 3,
+    "fields": {
+        "name": "Sofa",
+        "description": "Soft sofa",
+        "category": "furniture",
+        "leftover": 8,
+        "price": "55.55",
+        "created_at": "2022-11-14T07:12:33.201Z"
+    }
+},
+{
+    "model": "webapp.product",
+    "pk": 4,
+    "fields": {
+        "name": "Phone",
+        "description": "Samsung phone",
+        "category": "gadgets",
+        "leftover": 15,
+        "price": "100.24",
+        "created_at": "2022-11-14T07:13:06.060Z"
+    }
+},
+{
+    "model": "webapp.product",
+    "pk": 5,
+    "fields": {
+        "name": "Humidifier",
+        "description": "humidifier",
+        "category": "gadgets",
+        "leftover": 0,
+        "price": "24.25",
+        "created_at": "2022-11-14T07:13:36.167Z"
+    }
+},
+{
+    "model": "webapp.product",
+    "pk": 6,
+    "fields": {
+        "name": "Pen",
+        "description": "Blue pen",
+        "category": "other",
+        "leftover": 13,
+        "price": "14.45",
+        "created_at": "2022-11-14T07:14:00.017Z"
+    }
+},
+    {
   "model": "webapp.product",
-  "pk": 1,
+  "pk": 7,
   "fields": {
-    "name": "Земля Королей",
-    "description": "Долгожданное собрание комиксов о карточных мастях",
+    "name": "????? ???????",
+    "description": "???????????? ???????? ???????? ? ????????? ??????",
     "category": "books",
     "leftover": 0,
     "price": "250.00",
@@ -13,10 +85,10 @@
 },
 {
   "model": "webapp.product",
-  "pk": 2,
+  "pk": 8,
   "fields": {
-    "name": "Благословение небожителей",
-    "description": "Беды преследуют Се Ляня одна за другой",
+    "name": "????????????? ???????????",
+    "description": "???? ?????????? ?? ???? ???? ?? ??????",
     "category": "books",
     "leftover": 0,
     "price": "300.00",
@@ -25,19 +97,14 @@
 },
 {
   "model": "webapp.product",
-  "pk": 3,
+  "pk": 9,
   "fields": {
-    "name": "Шантарам",
-    "description": "Представляем читателю один из самых поразительных романов начала XXI века",
+    "name": "????????",
+    "description": "???????????? ???????? ???? ?? ????? ????????????? ??????? ?????? XXI ????",
     "category": "books",
     "leftover": 5,
     "price": "500.00",
     "created_at": "2022-12-13T11:42:59.099Z"
   }
-},
-{
-  "model": "webapp.product",
-  "pk": 4,
-  "fields": {
-    "name": "Роза",
-    "description": 
+}
+]

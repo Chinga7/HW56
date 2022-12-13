@@ -41,6 +41,7 @@ class Order(models.Model):
     def __str__(self):
         return f'{self.pk}. {self.client}. {self.contact_number}. {self.created_at}'
 
+
 class ProductOrder(models.Model):
     order = models.ForeignKey('webapp.Order', related_name='order_product', on_delete=models.CASCADE, verbose_name='Order')
     product = models.ForeignKey('webapp.Product', related_name='product_order', on_delete=models.CASCADE, verbose_name='Product')
