@@ -1,0 +1,25 @@
+{% extends 'base.html' %}
+
+{% block navbar %}
+    <li class="nav-item">
+        <a class="nav-link" href="{% url 'product_list' %}">Home</a>
+    </li>
+    <li class="nav-item">
+         <a class="nav-link" href="{% url 'product_create' %}">Create Product</a>
+    </li>
+    <li class="nav-item">
+         <a class="nav-link" href="{% url 'cart_list' %}">Cart List</a>
+    </li>
+    <li class="nav-item">
+         <a class="nav-link" href="{% url 'order_list' %}">Order List</a>
+    </li>
+{% endblock %}
+
+{% block title %}Home{% endblock %}
+
+{% block content %}
+        <h1>Products</h1>
+        {% include 'partial/product_list.html'%}
+
+        {% include 'partial/pagination.html'%}
+{% endblock %}

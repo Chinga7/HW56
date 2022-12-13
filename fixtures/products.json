@@ -1,0 +1,43 @@
+[
+{
+  "model": "webapp.product",
+  "pk": 1,
+  "fields": {
+    "name": "Земля Королей",
+    "description": "Долгожданное собрание комиксов о карточных мастях",
+    "category": "books",
+    "leftover": 0,
+    "price": "250.00",
+    "created_at": "2022-12-13T11:58:26.286Z"
+  }
+},
+{
+  "model": "webapp.product",
+  "pk": 2,
+  "fields": {
+    "name": "Благословение небожителей",
+    "description": "Беды преследуют Се Ляня одна за другой",
+    "category": "books",
+    "leftover": 0,
+    "price": "300.00",
+    "created_at": "2022-12-13T11:54:00.629Z"
+  }
+},
+{
+  "model": "webapp.product",
+  "pk": 3,
+  "fields": {
+    "name": "Шантарам",
+    "description": "Представляем читателю один из самых поразительных романов начала XXI века",
+    "category": "books",
+    "leftover": 5,
+    "price": "500.00",
+    "created_at": "2022-12-13T11:42:59.099Z"
+  }
+},
+{
+  "model": "webapp.product",
+  "pk": 4,
+  "fields": {
+    "name": "Роза",
+    "description": 
